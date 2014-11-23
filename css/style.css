@@ -1,0 +1,129 @@
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+  background-color: #f84242;
+  color: #fff;
+}
+header h1 {
+  margin-top: 28px;
+}
+header p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+header p span {
+  font-weight: bold;
+}
+.services {
+  margin: 48px auto 54px auto;
+}
+.services .service h3 {
+  font-weight: 600;
+  margin-top: 0;
+}
+.services .service h3 i {
+  margin-right: 10px;
+  color: #f84242;
+  font-size: 42px;
+}
+.services .service p {
+  width: 240px;
+  margin: 24px 20px;
+  font-size: 16px;
+}
+.services .service a {
+  color: #f84242;
+  font-weight: bold;
+  margin: 20px;
+}
+.portfolio {
+  background-color: #e5e5e5;
+  font-size: 16px;
+}
+.portfolio .title {
+  margin: 48px auto;
+}
+.portfolio .title h3 {
+  font-size: 28px;
+}
+.portfolio .title p {
+  word-spacing: 0.08em;
+  font-size: 15px;
+}
+.portfolio .info {
+  margin: 20px 0;
+}
+.portfolio .info p {
+  position: relative;
+  margin: 24px 10px;
+}
+.portfolio .info p span {
+  position: absolute;
+  top: -80%;
+  left: 0;
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+.portfolio img {
+  margin-top: 56px;
+}
+.contact {
+  margin-top: 48px;
+}
+.contact .social {
+  margin: 56px auto;
+}
+.contact .social ul {
+  list-style: none;
+}
+.contact .social ul li {
+  display: inline;
+  margin: 0 10px;
+  padding: 36px 22px;
+  background-color: #e5e5e5;
+}
+.contact .social ul li img {
+  width: 48px;
+  height: 48px;
+}
+footer {
+  margin: 48px auto;
+}
+footer span {
+  color: #f84242;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .services {
+    margin-top: 36px;
+  }
+  .services .service {
+    margin-top: 28px;
+  }
+  .portfolio a {
+    margin: 24px auto;
+  }
+  .portfolio img {
+    margin-top: 16px;
+    width: 500px;
+    height: 250px;
+  }
+  .contact h1 {
+    font-size: 48px;
+  }
+  .contact .social {
+    margin: 48px auto;
+  }
+  .contact .social ul li {
+    padding: 0;
+    background-color: #fff;
+  }
+  .contact .social ul li img {
+    width: 32px;
+    height: 32px;
+  }
+}
